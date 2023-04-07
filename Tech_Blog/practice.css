@@ -1,0 +1,13 @@
+
+*   {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+article {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
