@@ -1,3 +1,5 @@
+
+
 article {
 
     background-color: aliceblue;
@@ -24,6 +26,7 @@ h1  {
 
 
 *   {
+    font-family: 'IBM Plex Sans KR', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -64,7 +67,7 @@ nav a:hover    {
     color: rgb(138, 185, 200);
 }
 
-#a2,#a4 {
+#a2,#a4,#a6 {
     background-color: rgb(181, 219, 243);
 }
 
@@ -86,17 +89,15 @@ ul  {
     margin: 20px;
 }
 
-ul li   {
-    font-family:'KOFIH 이종욱체 TTF';
-}
 
-#a2, #a3, #a4, #a5, #a6 > li   {
 
-    font-family:'KOFIH 이종욱체 TTF';
-    flex-direction: column;
+article li{
+
+   
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 }
 
@@ -104,6 +105,19 @@ ul li   {
 nav a   {
     text-decoration: none; /* 하이퍼링크의 밑줄을 뺀다 */
     color: white;
+}
+
+article a   {
+    text-decoration:none;
+    
+}
+
+.c2 a:hover {
+    background-color:cornflowerblue;
+}
+
+.c3 a:hover {
+    background-color:cornflowerblue;
 }
 
 #a1 > div   {
@@ -122,5 +136,5 @@ nav a   {
 main    {
     display:flex;
     flex-direction: column;
-    font-family:'KOFIH 이종욱체 TTF';
+    
 }
