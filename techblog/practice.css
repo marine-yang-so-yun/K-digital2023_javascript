@@ -24,10 +24,10 @@ article a   {
 
 #blueArticle {
     background-color: rgb(181, 219, 243);
-    width: 30%;
+    width: 400px;
     border: 2px solid rgb(172, 199, 228);
     border-style:dashed;
-    margin: 10px;
+    margin: 5px;
 
 }
 
@@ -46,16 +46,16 @@ article a   {
     flex-direction: column;
     flex-basis: 50%;
     align-items:center;
-    padding: 10px;
+    padding: 5px;
 }
 
 
 #greyArticle {
     background-color: rgba(178, 198, 205, 0.583);
-    width: 30%;
+    width: 400px;
     border: 2px solid rgba(156, 160, 163, 0.697);
     border-style:dashed;
-    margin: 10px;
+    margin: 5px;
 
 }
 
