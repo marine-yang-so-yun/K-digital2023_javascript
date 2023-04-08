@@ -44,6 +44,7 @@ article a   {
 
     display:flex;
     flex-direction: column;
+    flex-basis: 50%;
     align-items:center;
     padding: 10px;
 }
@@ -61,5 +62,17 @@ article a   {
 #htmljava   {
     display:flex;
     justify-content:center;
+    flex-wrap:wrap;
+    
 }
 
+
+#footerId  a {
+    text-align: right;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#footerId a:hover   {
+    background-color:cornflowerblue;
+}
