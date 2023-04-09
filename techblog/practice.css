@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+a   {
+    list-style:none;
+}
+
 article {
 
     align-items: center;
@@ -66,13 +70,23 @@ article a   {
     
 }
 
+footer  {
+    display:flex;
+    justify-content:center;
+}
+
+#footerId    {
+    list-style:none;
+}
 
 #footerId  a {
     text-align: right;
     text-decoration: none;
     margin: 10px;
+    
 }
 
 #footerId a:hover   {
     background-color:cornflowerblue;
 }
+
