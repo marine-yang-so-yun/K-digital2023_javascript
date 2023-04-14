@@ -113,27 +113,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
             let temp = [];
             for(let item of arr)    {
-                switch(cbt3.textContent)    {
-                    case '사과-> 당근':
-                        if (item == "🍎")   temp.push("🥕");
-                        else temp.push(item);
-                        break;
+                // switch(cbt3.textContent)    {
+                //     case '사과-> 당근':
+                //         if (item == "🍎")   temp.push("🥕");
+                //         else temp.push(item);
+                //         break;
                         
-                    case '바나나->오이':
-                        if (item == "🍌")   temp.push("🥒");
-                        else temp.push(item);
-                        break;   
+                //     case '바나나->오이':
+                //         if (item == "🍌")   temp.push("🥒");
+                //         else temp.push(item);
+                //         break;   
                         
-                    case '오렌지->아보카도':
-                        if (item == "🍊")   temp.push("🥑");
-                        else temp.push(item);
-                        break;
+                //     case '오렌지->아보카도':
+                //         if (item == "🍊")   temp.push("🥑");
+                //         else temp.push(item);
+                //         break;
 
-                    case '수박-> 브로콜리':
-                        if (item == "🍉")   temp.push("🥦");
-                        else temp.push(item);
-                        break;
-                }
+                //     case '수박-> 브로콜리':
+                //         if (item == "🍉")   temp.push("🥦");
+                //         else temp.push(item);
+                //         break;
+                // }
+
+                // arr = arr.map((item) => item == "🍎"?"🥕":item); 도 사용가능
+                
                 console.log(temp);
             }
 
