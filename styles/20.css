@@ -1,0 +1,15 @@
+.obj  {
+    border: black 1px solid;
+    width: 70px;
+    height: 70px;
+}
+
+.gamebox    {
+    display: flex;
+}
+
+.articleCenter  {
+    display:flex;
+    flex-direction: center;
+}
+
