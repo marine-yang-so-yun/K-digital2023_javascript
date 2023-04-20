@@ -8,8 +8,9 @@
     display: flex;
 }
 
-.articleCenter  {
+.gamebox_center  {
     display:flex;
-    flex-direction: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
